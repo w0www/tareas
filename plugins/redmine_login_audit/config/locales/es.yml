@@ -1,0 +1,17 @@
+# Spanish strings go here for Rails i18n
+es:
+  label_la_admin: "Auditoria de inicio de sesiones"
+  label_la_ip_address: "Dirección IP"
+  label_la_from_to: "#%{from} a #%{to} Fuera de %{count}"
+  label_la_audit_records_per_page: "Numero de registros a mostrar por página"
+  label_la_notification_email: "Dirección de correo para notificar"
+  help_la_mail_address: "Esta dirección recibirá un correo cada vez que un usuario inicie sesion satisfactoriamente. Deja en blanco para deshabilitar."
+  mail_la_subject: "Auditoria de inicio de sesión: %{user_name} desde %{ip_address} el %{date}"
+  mail_la_body_text: "%{user_name} acaba de iniciar sesión %{instance} desde %{ip_address} el %{date}"
+  mail_la_body_html: "<b>%{user_name}</b> acaba de iniciar sesión en %{instance} desde <a href='http://www.ip-adress.com/ip_tracer/%{ip_address}' target='_blank'>%{ip_address}</a> el %{date}"
+  label_la_delete_older_than: "Borrar registros anteriores a "
+  label_la_delete_history: "Borrar ahora!"
+  label_la_delete_all_history: "Borrar todos los registros!"
+  error_la_bad_parameters: "Parametros erroneos!"
+  notice_la_records_deleted: "%{count} registros creados despues de %{date} fueron eliminados!"
+  notice_la_records_all_deleted: "%{count} registros fueron eliminados!"

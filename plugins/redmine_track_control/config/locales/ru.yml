@@ -1,0 +1,18 @@
+# English strings go here for Rails i18n
+ru:
+  trackcontrol_create_tracker: "Создавать трекер: %{value}"
+  notice_no_valid_trackers_available: "Нет доступных трекеров. Пожалуйста обратитесь к администратору написав письмо на e.batogov@cti.ru"
+  trackcontrol_tracker_not_allowed:  не позволяется"
+  permission_create_tracker1: "Ошибка"
+  permission_create_tracker2: "Изменение"
+  permission_create_tracker3: "Поддержка"
+  permission_create_tracker4: "Обучение"
+  permission_create_tracker5: "Тестирование"
+  permission_create_tracker6: "Разработка"
+  permission_create_tracker7: "Совещание"
+  permission_create_tracker8: "Управление"
+  permission_create_tracker9: "Оценка"
+  permission_create_tracker10: "Аналитика"
+  permission_create_tracker11: "Test case"
+  permission_create_tracker12: "Feature"
+  permission_create_tracker13: "Bug"

@@ -1,0 +1,61 @@
+es:
+  project_module_custom_workflows_module: "Flujos de trabajo personalizados"
+  permission_manage_project_workflow: "Gestionar flujos de trabajo personalizados de proyectos"
+
+  label_custom_workflow: "Flujo de trabajo personalizado"
+  label_custom_workflow_plural: "Flujos de trabajo personalizados"
+  label_custom_workflow_new: "Crear flujo de trabajo personalizado"
+  label_workflow_scripts: "Script del flujo de trabajo"
+  label_enabled_projects: "Habilitado para el(los) proyecto(s)"
+  label_custom_workflow_export: "Exportar"
+  label_custom_workflow_import: "Importar flujos de trabajos"
+
+  button_import: "Importar"
+  button_custom_workflow_activate: "Activar"
+  button_custom_workflow_deactivate: "Desactivar"
+
+  field_after_save: "El flujo de trabajo se ejecuta despues de guardar el objeto observado"
+  field_before_save: "El flujo de trabajo se ejecuta antes de guardar el objeto observado"
+  field_after_add: "El flujo de trabajo se ejecuta despues de añadir el objeto observado."
+  field_before_add: "El flujo de trabajo se ejecuta antes de añadir el objeto observado"
+  field_after_remove: "El flujo de trabajo se ejecuta despues de borrar el objeto observado"
+  field_before_remove: "El flujo de trabajo se ejecuta antes de borrar el objeto observado"
+  field_shared_code: "Código compartido"
+  field_observable: "Objeto observable"
+  field_is_enabled: "Habilitado"
+  field_enabled_for_all_projects: "Habilitado para todos los proyectos"
+  field_custom_workflow_author: "Correo del Autor"
+  field_custom_workflow_file: "Selecciona el fichero XML antes del proceso de exportación"
+  field_custom_workflow_active: "Activo"
+  field_custom_workflow:
+    script: "Script flujo de trabajo"
+
+  notice_successful_import: "El flujo de trabajo ha sido importador satisfactoriamente."
+  notice_successful_status_change: "El estado ha sido cambiado satisfactoriamente."
+  error_failed_import: "Error importando el flujo de trabajo(¿formato desconocido? Por favor, revisa el log.)"
+
+  activerecord:
+    errors:
+      messages:
+        invalid_script: "Contiene errores: %{error}"
+        custom_workflow_error: "Error en el flujo de trabajo (contacte con un administrador)"
+        new_status_invalid: "transicción desde '%{old_status}' hasta '%{new_status}' esta prohibida"
+
+  text_select_project_custom_workflows: Selecciona el flujo de trabajo de proyecto
+  text_custom_workflow_before_save_note: Puedes cambiar las propiedades de las peticiones aquí. No cree o actualice peticiones relacionadas en este script. Para finalizar con error, utiliza 'raise WorkflowError, "Message to user"'.
+  text_custom_workflow_after_save_note: Puedes actualizar o crear peticiones relacionadas aquí. Tenga en cuenta que este script se ejecutara para las nuevas peticiones creadas. Haz los ajustes necesarios para prevenir peticiones recursivas infinitas.
+  text_custom_workflow_issue_code_note: Ambos scripts son ejecutados en los callbacks 'before_save' y 'after_save'. Usa los métodos y propiedades de las peticiones directamente(o self). Las variables de instancia(@variable) estan disponibles y pueden ser usadas si es necesario.
+  text_custom_workflow_shared_code_note: Este código se ejecutará antes de otro flujo de trabajo y puede contener codigo compartido. Por ejemplo, funciones y clases necesarias en otros workflows.
+  text_custom_workflow_user_code_note: Ambos scripts son ejecutados cuando el usuario cambia. Usa los métodos y propiedades del usuario  directamente(o self)
+  text_custom_workflow_group_code_note: Ambos scripts son ejecutados cuando un grupo cambia. Usa los metodos y propiedades del grupo directamente(o self).
+  text_custom_workflow_group_users_code_note: Estos scripts son ejecutados cuando un usuario esta siendo añadido o eliminado de un grupo. Usa las variables @user y @group para acceder al objeto apropiado en tus scripts.
+  text_no_enabled_projects: Sin proyectos
+  text_custom_workflow_author: Será incluido en el XML exportado
+  text_custom_workflow_disabled: Deshabilitado por el administrador
+  text_custom_workflow_is_for_all: Habilitado para todos los proyectos
+
+  custom_workflow_observable_shared: "<código compartido>"
+  custom_workflow_observable_issue: "Petición"
+  custom_workflow_observable_group: "Grupo"
+  custom_workflow_observable_user: "Usuario"
+  custom_workflow_observable_group_users: "Grupo de usuarios"
