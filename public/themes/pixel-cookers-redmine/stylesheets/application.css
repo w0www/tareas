@@ -1492,8 +1492,8 @@ a:visited,
 }
 /* Top bar */
 #top-menu {
-  background: #6aaf23;
-  border-bottom: 6px solid #6aaf23;
+  background: #000000;
+  border-bottom: 6px solid #000000;
 }
 #top-menu a {
   color: #dddddd;
