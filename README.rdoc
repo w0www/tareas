@@ -1,0 +1,4 @@
+= Redmine(modified)
+
+This redmine has a list of plugins that i considered necessary and a new style.
+
